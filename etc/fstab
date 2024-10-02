@@ -1,0 +1,10 @@
+# Static information about the filesystems
+
+# Author:                   Andrei Korshikov
+# SPDX-License-Identifier:  0BSD
+
+
+# <file system>                                 <target>    <type>      <options>                   <dump>  <fsck passno>
+UUID=27cee420-ed0f-4765-b4f3-44928a5fd671       /           btrfs       noatime,compress=zstd
+UUID=2053-8D75                                  /boot       vfat        noatime                     0       2
+UUID=702bf50d-6ee1-4441-96d0-31a2cf7e559a       none        swap        defaults

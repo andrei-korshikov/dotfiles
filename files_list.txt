@@ -1,0 +1,10 @@
+# rsync list of files to transfer
+
+# Author:                   Andrei Korshikov
+# SPDX-License-Identifier:  0BSD
+
+
+/boot/loader/loader.conf
+/boot/loader/entries/
+
+/etc/fstab

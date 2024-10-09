@@ -4,3 +4,5 @@
 /boot/loader/entries/
 
 /etc/fstab
+/etc/dhcpd.conf
+/etc/hostname

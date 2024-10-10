@@ -1,0 +1,14 @@
+# i8kmon temperature monitor configuration file
+
+# Status check timeout (seconds), override with --timeout option
+set config(timeout)      5
+
+# Number of temperature configurations
+set config(num_configs)  2
+
+# Temperature thresholds: {{-  fan speed state (0, 1, 2)}   low AC temp  high AC temp   low battery temp  high battery temp}
+#   [unused] - fan state 0 (    0 rpm)
+#    at T<55 - fan state 1 (~3000 rpm)
+#    at T=55 - fan state 2 (~5000 rpm), until T=50
+set config(0)  {{-  1}   -1   55    -1   55}
+set config(1)  {{-  2}   50  128    50  128}

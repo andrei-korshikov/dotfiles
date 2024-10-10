@@ -1,0 +1,18 @@
+# Static table lookup for hostnames
+
+# <IP address>  <canonical hostname>        <alias>…
+
+192.168.1.11    laptop
+
+# disable IOL "phone home" feature
+127.0.0.127     terence.cisco.com
+127.0.0.127     xml.cisco.com
+
+# disable "Master PDF" "call home"
+127.0.0.127     get.code-industry.net
+
+# localhost
+127.0.0.1       localhost
+::1             localhost                   ip6-localhost       ip6-loopback
+ff02::1         ip6-allnodes
+ff02::2         ip6-allrouters

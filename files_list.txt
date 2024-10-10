@@ -6,3 +6,12 @@
 /etc/fstab
 /etc/dhcpd.conf
 /etc/hostname
+/etc/hosts
+/etc/i8kmon.conf
+/etc/i8kmon.conf.normal
+/etc/i8kmon.conf.silent
+/etc/locale.conf
+/etc/locale.gen
+/etc/localtime
+/etc/makepkg.conf
+/etc/mkinitcpio.conf

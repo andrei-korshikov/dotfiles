@@ -3,6 +3,9 @@
 /boot/loader/loader.conf
 /boot/loader/entries/
 
+/etc/sysctl.d/99-sysctl.conf
+/etc/X11/xorg.conf
+
 /etc/fstab
 /etc/dhcpd.conf
 /etc/hostname
@@ -15,3 +18,11 @@
 /etc/localtime
 /etc/makepkg.conf
 /etc/mkinitcpio.conf
+/etc/nftables.conf
+/etc/pacman.conf
+/etc/papersize
+/etc/sockd.conf
+/etc/resolv.conf
+/etc/vconsole.conf
+
+/home/korshikov/.config/paru/paru.conf
